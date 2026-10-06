@@ -1,0 +1,18 @@
+{
+  "name": "wx-companion",
+  "version": "0.1.0",
+  "description": "WeChat AI Companion — jiwen 状态引擎驱动的微信 AI 伴侣",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "dotenv": "^16.4.5",
+    "openai": "^6.8.0",
+    "weixin-bot-sdk": "^1.1.0"
+  },
+  "private": true
+}

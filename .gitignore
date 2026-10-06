@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Runtime data (SQLite, credentials, logs)
+data/
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
